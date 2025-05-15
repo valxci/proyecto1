@@ -9,6 +9,13 @@ body {
     background-color: black;
     background-image: url(../assets/fondo.png);
 }
+
+#galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
 .iconos span:hover {
     color: #E1991C;
 }
@@ -91,6 +98,11 @@ h1 {
     transition: 2s;
 }
 
+.pokem img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
 .pokem:hover {
     transform: scale(1.1);
     transition: 2s;
