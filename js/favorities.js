@@ -1,1 +1,0 @@
-const favorities= document.querySelectorAll()
